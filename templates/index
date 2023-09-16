@@ -1,0 +1,2 @@
+<h3>您好 {{name}}. Welcome to Flask!</h3>
+這是樣板檔案的內容 (路徑: ./templates/index)
