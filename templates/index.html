@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>First Flask website</title>
+</head>
+<body>
+    <h3>First website homepage</h3>
+    <!-- Form -->
+    <!-- <form action="https://www.google.com/"> -->
+    <!-- receive input and store for use in backend -->
+    <form action="/calculate">  <!-- call /calculate function -->
+        Number <input type="text" name="max"/>
+        <button>Result</button>
+    </form>
+
+    <form action="/show">  <!-- call /show function -->
+        Name <input type="text" name="n"/>
+        <button>Send form</button>
+    </form>
+    
+    <!-- <a href="https://www.google.com">Link</a> -->
+    <!-- <a href="http://127.0.0.1:3000/page">Link</a> -->
+    <a href="/page">Link</a>  <!--if no path, then default local server -->
+    <br/>
+    <!-- <img src="http://127.0.0.1:3000/Temple.JPG" width="800"> -->
+    <img src="/Temple.JPG" width="800">  <!--if no path, then default local server -->
+</body>
+</html>
