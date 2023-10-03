@@ -8,7 +8,7 @@ import pymongo
 # copy and paste from MongoDB website
 from pymongo.mongo_client import MongoClient
 
-uri="mongodb+srv://<password>@kaicluster.f9neu2k.mongodb.net/?retryWrites=true&w=majority"
+uri="mongodb+srv://root:root123@kaicluster.f9neu2k.mongodb.net/?retryWrites=true&w=majority"
 
 # Create a new client and connect to the server
 client=MongoClient(uri)

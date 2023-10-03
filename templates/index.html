@@ -18,11 +18,24 @@
         Name <input type="text" name="n"/>
         <button>Send form</button>
     </form>
+    <br/>
     
     <!-- <a href="https://www.google.com">Link</a> -->
     <!-- <a href="http://127.0.0.1:3000/page">Link</a> -->
-    <a href="/page">Link</a>  <!--if no path, then default local server -->
+    <a href="/page">Second page</a>  <!--if no path, then default local server -->
     <br/>
+    <br/>
+
+    Test session:
+    <form action="/hello">  <!-- call /hello function -->
+        Name <input type="text" name="name"/>
+        <button>Hello</button>
+    </form>
+
+    <form action="/talk">  <!-- call /talk function -->
+        <button>Talk</button>
+    </form>
+    
     <!-- <img src="http://127.0.0.1:3000/Temple.JPG" width="800"> -->
     <img src="/Temple.JPG" width="800">  <!--if no path, then default local server -->
 </body>
