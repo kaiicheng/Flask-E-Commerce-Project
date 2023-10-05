@@ -1,5 +1,7 @@
 # Flask-E-Commerce-Project
 
+https://flask-e-commerce-project.ue.r.appspot.com/
+
 Welcome to our E-Commerce website, a modern and feature-rich online shopping platform powered by Python Flask, MongoDB, and hosted on Google Cloud Platform. This README provides an overview of the website, its features, and instructions for deployment.
 
 ## Table of Contents
@@ -48,6 +50,42 @@ To run the website locally for development or testing purposes, follow these ste
    git clone https://github.com/yourusername/e-commerce-website.git
 
 # Hosting on Google Cloud Platform (GCP)
+
+* Downlaod Google Cloud SDK
+
+* Open Google Cloud SDK Shell
+
+* Check GCP version
+```
+gcloud --version
+```
+
+* Login GCP in terminal
+```
+gcloud auth login
+```
+
+* Allow access to GCP
+
+* Set configuration
+```
+gcloud config set project "GCP ID"
+```
+
+* Deploy website application
+```
+gcloud app deploy
+```
+
+* View website application
+```
+gcloud app browse
+```
+
+
+
+
+
 
 * Create requirements.txt file
 ```
