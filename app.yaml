@@ -1,1 +1,17 @@
-runtime: python311
+runtime: python311  # 選擇適合的 Python 版本
+
+# entrypoint: gunicorn -b :$PORT your_app:app  # 替換 'your_app' 為你的 Flask 應用程式的模組和名稱
+
+# env_variables:
+#   MONGO_URI: mongodb+srv://root:root123@kaicluster.f9neu2k.mongodb.net/?retryWrites=true&w=majority  # 替換 'your_mongodb_uri' 為你的 MongoDB 連接字串
+
+# handlers:
+# - url: /static
+#   static_dir: static
+
+# - url: /.*
+#   script: auto
+
+# # libraries:
+# # - name: pymongo
+# #   version: latest  # 使用最新版本的 pymongo

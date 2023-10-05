@@ -203,6 +203,5 @@ def talk():
     # return "Who are you?"
     return "Welcome back "+name+"!"
 
-# boost web server, can assign port number
-# app.run()
-app.run(port=3000)
+if __name__ == "__main__":
+    app.run(port=3000)
