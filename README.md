@@ -49,6 +49,18 @@ To run the website locally for development or testing purposes, follow these ste
    ```bash
    git clone https://github.com/yourusername/e-commerce-website.git
 
+# Requirement for hosting on Google Cloud Platform (GCP)
+
+* Create app.yaml file at root directory with below information
+```
+runtime: python311
+```
+
+* Create requirements.txt file
+```
+pip freeze > requirements.txt
+```
+
 # Hosting on Google Cloud Platform (GCP)
 
 * Downlaod Google Cloud SDK
@@ -80,14 +92,4 @@ gcloud app deploy
 * View website application
 ```
 gcloud app browse
-```
-
-
-
-
-
-
-* Create requirements.txt file
-```
-pip freeze > requirements.txt
 ```
