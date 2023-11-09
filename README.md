@@ -1,5 +1,7 @@
 # Flask-E-Commerce-Project
 
+<img src="Demo.png" width="100%">
+
 Testing demo on Flask:
 https://flask-e-commerce-project.ue.r.appspot.com/
 
