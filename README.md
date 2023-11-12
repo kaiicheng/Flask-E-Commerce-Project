@@ -71,7 +71,7 @@ pip freeze > requirements.txt
 
 * Downlaod Google Cloud SDK
 
-* Open Google Cloud SDK Shell
+* Open Google Cloud SDK Shell (Run as Administrator)
 
 * Check GCP version
 ```
