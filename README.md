@@ -73,9 +73,16 @@ pip freeze > requirements.txt
 
 * Open Google Cloud SDK Shell (Run as Administrator)
 
+* Change directory to the folder of project
+
 * Check GCP version
 ```
 gcloud --version
+```
+
+* (Optional) Update GCP to the latest version
+```
+gcloud components update
 ```
 
 * Login GCP in terminal
